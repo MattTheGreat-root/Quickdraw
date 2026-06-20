@@ -23,10 +23,10 @@ quickdraw-clustering/
 ```
 
 ## Project Workflow
-
 This project is broken down into the following analytical steps:
-PCA & LDA Projections: Reducing the dataset dimensions and projecting the samples onto their first 2 and 3 principal components, followed by an LDA projection for comparison.  
-K-Means with Random Initialization: Clustering the data using the first two principal components with $K=3, 7, 10$ and plotting the final centroids.
-K-Means with Mean Initialization: Re-running the clusters by manually setting the initial centroids to the exact mathematical means of specific class groupings to observe convergence differences.
-95% Variance Reconstruction: Finding the optimal number of principal components to capture 0.95 variance, and visually comparing the reconstructed images to the original hand-drawn samples.  
-Full 10-Cluster Analysis: Executing K-Means with $K=10$ on the optimal feature space, visualizing 100 random samples, and generating bar graphs to evaluate the actual class distribution within each discovered cluster.
+
+1. **PCA & LDA Projections:** Reducing the dataset dimensions and projecting the samples onto their first 2 and 3 principal components, followed by an LDA projection for comparison.  
+2. **K-Means with Random Initialization:** Clustering the data using the first two principal components with $K=3, 7, 10$ and plotting the final centroids.
+3. **K-Means with Mean Initialization:** Re-running the clusters by manually setting the initial centroids to the exact mathematical means of specific class groupings to observe convergence differences.
+4. **95% Variance Reconstruction:** Finding the optimal number of principal components to capture 0.95 variance, and visually comparing the reconstructed images to the original hand-drawn samples.  
+5. **Full 10-Cluster Analysis:** Executing K-Means with $K=10$ on the optimal feature space, visualizing 100 random samples, and generating bar graphs to evaluate the actual class distribution within each discovered cluster.
