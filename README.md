@@ -20,6 +20,7 @@ quickdraw-clustering/
 │   └── quickdraw_analysis.ipynb
 ├── .gitignore             # Strict ignore rules for massive dataset files
 └── README.md              # Project documentation
+```
 
 ## Project Workflow
 
