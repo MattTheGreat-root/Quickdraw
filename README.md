@@ -16,7 +16,7 @@ Developed as part of a Computer Science academic project at Amirkabir University
 quickdraw-clustering/
 │
 ├── dataset/                  # (Ignored in Git) Store the QuickDraw10 dataset here
-├── quickdraw_analysis.ipynb             # Jupyter notebooks with full ML pipelines
+├── quickdraw.ipynb             # Jupyter notebooks with full ML pipelines
 ├── .gitignore             # Strict ignore rules for massive dataset files
 └── README.md              # Project documentation
 ```
